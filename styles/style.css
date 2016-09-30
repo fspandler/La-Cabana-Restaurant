@@ -20,11 +20,17 @@ body {
 header img {
 	width: 100%;
 }
-
 nav ul {
+	margin-top: 0px;
+	border: solid 1px 1px 1px 1px black
+}
+nav ul li{
 	display: inline;
 }
-
+li a {
+  text-decoration: none;
+}
+/*Main Content*/
 section {
 	float: left;
 	width: 60%;
@@ -35,6 +41,12 @@ aside {
 	width: 40%;
 }
 
+/*Footer*/
 footer {
 	width: 100%;
+}
+
+/*Clearfix*/
+.clear {
+	clear: both;
 }
