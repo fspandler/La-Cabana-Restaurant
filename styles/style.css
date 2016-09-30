@@ -1,7 +1,5 @@
 /*Comment*/
-html, body {
-	height: 100%;
-}
+
 
 html {
 	background-color: gray;
@@ -44,6 +42,10 @@ aside {
 /*Footer*/
 footer {
 	width: 100%;
+}
+
+footer h4 {
+	margin-bottom: 0px;
 }
 
 /*Clearfix*/
