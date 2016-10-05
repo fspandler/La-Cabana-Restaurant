@@ -54,7 +54,7 @@ nav li {
 }
 
 #bg {
-	background: url(http://i.imgur.com/ixpzLnm.jpg) no-repeat center  fixed;
+	background: url(http://i.imgur.com/ixpzLnm.jpg) no-repeat center center fixed;
 	width: 100%;
 	height: 100vh;
 }
@@ -82,16 +82,30 @@ p {
 	font-family: 'Quando', serif;
 }
 
+#split {
+	background: url(http://i.imgur.com/1kBWyGh.jpg) no-repeat center center fixed;
+	width: 100%;
+	height: 110vh;
+}
+
+#about {
+	height: 110vh;
+}
+
 #about p {
 	width: 40%;
 	font-family: 'Quando', serif;
+	margin-left: 40%;
+	margin-top: 20px;
+	font-size: 2rem;
 }
 #hours p{
 	 width: 50%;
 	 display: inline-block;
 }
 
-#hours h2{
+#hours h2, #locations h2{
+	padding-top:10%;
 	text-align: center;
 	margin-left: 0px;
 }
