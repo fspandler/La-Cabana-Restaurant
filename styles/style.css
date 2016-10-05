@@ -65,6 +65,10 @@ section {
 	width: 60%;
 }
 
+h1, h2 {
+	font-family: 'Architects Daughter', cursive;
+}
+
 aside {
 	float:right;
 	width: 40%;
