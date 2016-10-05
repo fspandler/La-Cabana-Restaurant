@@ -36,8 +36,13 @@ nav ul {
 nav ul li{
 	display: inline;
 	color: white;
-	text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 }
+
+nav ul li a:hover{
+	color:gold;
+}
+
 li a {
   text-decoration: none;
 	color: white;
@@ -49,7 +54,7 @@ nav li {
 }
 
 #bg {
-	background-image: url(http://i.imgur.com/Sq1HCtJ.jpg);
+	background: url(http://i.imgur.com/ixpzLnm.jpg) no-repeat center center fixed;
 	width: 100%;
 	height: 100vh;
 }
