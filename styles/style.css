@@ -8,14 +8,14 @@ html {
 body {
 	margin:0 auto;
 	background-color: white;
-	/*-webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.73);
-    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.73);
-    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.73);*/
 }
 
 /*Header*/
-header img {
+
+
+header {
 	width: 100%;
+	height: 100%;
 }
 a img {
 	width: 10%;
@@ -24,6 +24,7 @@ nav {
 		border: solid 1px 1px 1px 1px black;
 		position: fixed;
 		text-align: center;
+		width: 100%;
 }
 nav ul {
 	margin-top: 0px;
@@ -42,6 +43,12 @@ li a {
 }
 nav li {
 	font-size: 2rem;
+}
+
+#bg {
+	background-image: url(http://i.imgur.com/Sq1HCtJ.jpg);
+	width: 100%;
+	height: 900px;
 }
 
 /*Main Content*/
