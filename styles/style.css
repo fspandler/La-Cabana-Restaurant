@@ -60,20 +60,14 @@ nav li {
 }
 
 /*Main Content*/
-section {
-	float: left;
-	width: 60%;
-}
 
 h1, h2 {
 	font-family: 'Architects Daughter', cursive;
 }
 
-aside {
-	float:right;
-	width: 40%;
+main {
+	background-color: #ffffe6;
 }
-
 /*Footer*/
 footer {
 	width: 100%;
@@ -81,9 +75,4 @@ footer {
 
 footer h4 {
 	margin-bottom: 0px;
-}
-
-/*Clearfix*/
-.clear {
-	clear: both;
 }
