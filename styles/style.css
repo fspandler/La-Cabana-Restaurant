@@ -60,6 +60,8 @@ nav li {
 }
 
 /*Main Content*/
+
+}
 h1 {
 	margin-top:0;
 	padding-top: 50px;
@@ -93,20 +95,15 @@ p {
 }
 
 #about h1 {
-	padding-top: 10vh;
+	padding-top: 10%;
 }
 
 #about p {
 	width: 40%;
 	font-family: 'Quando', serif;
 	margin-left: 40%;
-	margin-top: 10vh;
+	margin-top: 10%;
 	font-size: 1.5rem;
-}
-#hours article{
-	 width: 50%;
-	 display: inline-block;
-	 margin: 0;
 }
 
 #hours h2, #locations h2{
