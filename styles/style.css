@@ -92,11 +92,15 @@ p {
 	height: 110vh;
 }
 
+#about h1 {
+	padding-top: 10vh;
+}
+
 #about p {
 	width: 40%;
 	font-family: 'Quando', serif;
 	margin-left: 40%;
-	margin-top: 20px;
+	margin-top: 10vh;
 	font-size: 2rem;
 }
 #hours p{
