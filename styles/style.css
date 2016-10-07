@@ -101,11 +101,12 @@ p {
 	font-family: 'Quando', serif;
 	margin-left: 40%;
 	margin-top: 10vh;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
-#hours p{
+#hours article{
 	 width: 50%;
 	 display: inline-block;
+	 margin: 0;
 }
 
 #hours h2, #locations h2{
