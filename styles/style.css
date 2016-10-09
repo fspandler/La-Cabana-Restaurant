@@ -111,7 +111,16 @@ section {
 }
 
 #hours article {
-	width: 500px;
+	width: 40vw;
+	display: inline-block;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+#hours {
+	text-align: center;
+}
+#hours h3 {
+	font-size: 2rem;
 }
 
 #hours h2, #locations h2{
