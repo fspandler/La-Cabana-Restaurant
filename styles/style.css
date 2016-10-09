@@ -79,7 +79,7 @@ main {
 	background-color: gold;
 }
 
-p {
+p, #hours article {
 	font-family: 'Quando', serif;
 }
 
