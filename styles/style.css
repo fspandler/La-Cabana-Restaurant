@@ -111,6 +111,17 @@ section {
 
 /*HOURS SECTION HERE*/
 
+#about h3 {
+	font-size:1,6rem;
+}
+
+#about p {
+	font-size: 1.6rem;
+}
+
+#about article {
+	width: 500px;
+}
 
 #hours h2, #locations h2{
 	padding-top:10%;
