@@ -132,6 +132,13 @@ section {
 	padding-right: 3vw;
 }
 
+#locations img {
+	width: 40vw;
+}
+
+#locations {
+	text-align: center;
+}
 
 #locations address, #locations h3 {
 	font-size: 1.6rem;
