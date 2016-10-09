@@ -1,6 +1,3 @@
-/*Comment*/
-
-
 html {
 	background-color: #dfe3e5;
 }
@@ -11,8 +8,6 @@ body {
 }
 
 /*Header*/
-
-
 header {
 	width: 100%;
 	height: 100%;
@@ -111,15 +106,11 @@ section {
 
 /*HOURS SECTION HERE*/
 
-#about h3 {
-	font-size:1,6rem;
-}
-
-#about p {
+#hours p {
 	font-size: 1.6rem;
 }
 
-#about article {
+#hours article {
 	width: 500px;
 }
 
