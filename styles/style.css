@@ -132,6 +132,12 @@ section {
 	padding-right: 3vw;
 }
 
+
+#locations address, #locations h3 {
+	font-size: 1.6rem;
+	font-family: 'Quando', serif;
+}
+
 #hours h2, #locations h2{
 	padding-top:10%;
 	text-align: center;
