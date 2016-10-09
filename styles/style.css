@@ -94,7 +94,7 @@ p, #hours article {
 	height: 110vh;
 }
 section {
-	min-height: 110vh;
+	min-height: 115vh;
 }
 
 #about h1 {
@@ -108,6 +108,9 @@ section {
 	margin-top: 10%;
 	font-size: 1.5rem;
 }
+
+/*HOURS SECTION HERE*/
+
 
 #hours h2, #locations h2{
 	padding-top:10%;
