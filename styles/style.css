@@ -111,6 +111,11 @@ section {
 
 /*HOURS SECTION HERE*/
 
+#hours{
+	background-image: url("http://i.imgur.com/eVcDeXq.png");
+	background-repeat: repeat;
+}
+
 #hours p {
 	font-size: 1.6rem;
 }
@@ -129,10 +134,6 @@ section {
 }
 
 /*LOCATIONS SECTION*/
-#locations{
-	background-image: url("http://i.imgur.com/eVcDeXq.png");
-	background-repeat: repeat;
-}
 
 #locations article {
 	width: 40vw;
