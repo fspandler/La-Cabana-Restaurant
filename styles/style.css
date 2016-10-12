@@ -134,7 +134,10 @@ section {
 }
 
 /*LOCATIONS SECTION*/
-
+#locations{
+	background-image: url("http://i.imgur.com/cfPMrWt.png");
+	background-repeat: repeat;
+}
 #locations article {
 	width: 40vw;
 	display: inline-block;
