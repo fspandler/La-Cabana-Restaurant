@@ -71,7 +71,7 @@ section h2 {
 	margin-top:0;
 }
 main {
-	background-color: gold;
+	background-color: gray;
 }
 
 p, #hours article {
@@ -99,7 +99,7 @@ section {
 }
 /*ABOUT SECTION*/
 #about {
-	background-image:url("http://i.imgur.com/JGWUhQh.png");
+	background-image:url(http://i.imgur.com/JGWUhQh.png);
   background-repeat:repeat;
 }
 
@@ -118,7 +118,7 @@ section {
 /*HOURS SECTION HERE*/
 
 #hours{
-	background-image: url("http://i.imgur.com/eVcDeXq.png");
+	background-image: url(http://i.imgur.com/eVcDeXq.png);
 	background-repeat: repeat;
 }
 
@@ -141,7 +141,7 @@ section {
 
 /*LOCATIONS SECTION*/
 #locations{
-	background-image: url("http://i.imgur.com/cfPMrWt.png");
+	background-image: url(http://i.imgur.com/cfPMrWt.png);
 	background-repeat: repeat;
 }
 #locations article {
