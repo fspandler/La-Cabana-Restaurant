@@ -91,6 +91,11 @@ p, #hours article {
 section {
 	min-height: 115vh;
 }
+/*ABOUT SECTION*/
+#about {
+	background-image:url("http://i.imgur.com/JGWUhQh.png");
+  background-repeat:repeat;
+}
 
 #about h1 {
 	padding-top: 10%;
