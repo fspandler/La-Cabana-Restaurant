@@ -1,10 +1,10 @@
 html {
-	background-color: #dfe3e5;
+	background-color: gray;
 }
 
 body {
 	margin:0 auto;
-	background-color: white;
+	background-color: gray;
 }
 
 /*Header*/
@@ -177,8 +177,11 @@ box-shadow: 0px 21px 28px 0px rgba(0,0,0,0.63);
 #contact {
 	background-image: url(http://i.imgur.com/4Y65QF0.png);
 	background-repeat: repeat;
-	min-height:30vh;
+	min-height:90vh;
 	padding-bottom: 10vh;
+	-webkit-box-shadow: 0px 21px 28px 0px rgba(0,0,0,0.63);
+  -moz-box-shadow: 0px 21px 28px 0px rgba(0,0,0,0.63);
+  box-shadow: 0px 21px 28px 0px rgba(0,0,0,0.63);
 }
 
 #contact h2 {
@@ -192,7 +195,7 @@ form {
   background: beige;
   margin: 0 auto;
   max-width:90vw;
-  width: 500px;
+  width: 550px;
   clear: both;
 	padding: 3vh;
 	background-image: url(http://i.imgur.com/ayuqwGq.png);
@@ -200,16 +203,22 @@ form {
 	-webkit-box-shadow: 0px 0px 29px 2px rgba(84,84,22,1);
 	-moz-box-shadow: 0px 0px 29px 2px rgba(84,84,22,1);
 	box-shadow: 0px 0px 29px 2px rgba(84,84,22,1);
+	font-size: 1.5rem;
+	font-family: 'Architects Daughter', cursive;
 }
 form input {
-  max-width: 90vw;
+  max-width: 30vw;
   width: 100%;
   clear: both;
 }
 
 /*Footer*/
 footer {
-	width: 100%;
+
+	background-image: url(http://i.imgur.com/Nb5ZVsl.png);
+	background-repeat: repeat;
+	height: 10vh;
+	width: 100vw;
 }
 
 footer h4 {
