@@ -174,7 +174,32 @@ box-shadow: 0px 21px 28px 0px rgba(0,0,0,0.63);
 }
 
 /*CONTACTS SECTION*/
+#contact {
+	background-image: url(http://i.imgur.com/4Y65QF0.png);
+	background-repeat: repeat;
+	min-height:30vh;
+	padding-bottom: 10vh;
+}
 
+#contact h2 {
+	padding-top: 4vh;
+	text-align: center;
+}
+
+form {
+  background: beige;
+  margin: 0 auto;
+}
+form {
+  max-width:90vw;
+  width: 500px;
+  clear: both;
+}
+form input {
+  max-width: 90vw;
+  width: 100%;
+  clear: both;
+}
 
 /*Footer*/
 footer {
