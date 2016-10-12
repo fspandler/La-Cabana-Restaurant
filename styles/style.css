@@ -88,6 +88,12 @@ p, #hours article {
 	width: 100%;
 	height: 110vh;
 }
+
+#split3 {
+	background: url(http://i.imgur.com/IRlmhQg.jpg) no-repeat center center fixed;
+	width: 100%;
+	height: 110vh;
+}
 section {
 	min-height: 115vh;
 }
@@ -163,6 +169,8 @@ section {
 	text-align: center;
 	margin-left: 0px;
 }
+
+/*CONTACTS SECTION*/
 
 
 /*Footer*/
