@@ -214,13 +214,6 @@ form input {
 
 /*Footer*/
 footer {
-
 	background-image: url(http://i.imgur.com/Nb5ZVsl.png);
 	background-repeat: repeat;
-	height: 10vh;
-	width: 100%;
-}
-
-footer h4 {
-	margin-bottom: 0px;
 }
