@@ -185,7 +185,7 @@ box-shadow: 0px 21px 28px 0px rgba(0,0,0,0.63);
 }
 
 #contact h2 {
-	padding-top: 4vh;
+	padding-top: 8vh;
   margin: 0 auto;
   text-align: center;
 	margin-bottom: 5vh;
@@ -216,4 +216,11 @@ form input {
 footer {
 	background-image: url(http://i.imgur.com/Nb5ZVsl.png);
 	background-repeat: repeat;
+	min-height: 15vh;
+}
+footer p {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 4vh;
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
 }
