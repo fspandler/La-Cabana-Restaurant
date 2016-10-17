@@ -16,7 +16,6 @@ header {
 	width: 10vw;
 }
 nav {
-		border: solid 1px 1px 1px 1px black;
 		position: fixed;
 		text-align: center;
 		width: 100%;
@@ -46,6 +45,15 @@ li a {
 }
 nav li {
 	font-size: 2rem;
+}
+
+header div {
+	text-align: center;
+}
+header div img {
+	padding-top: 20vh;
+	height: 400px;
+	width: 400px;
 }
 
 #bg {
