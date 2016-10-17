@@ -19,6 +19,7 @@ nav {
 		position: fixed;
 		text-align: center;
 		width: 100%;
+		padding-top: 2vh;
 }
 nav ul {
 	margin-top: 0px;
