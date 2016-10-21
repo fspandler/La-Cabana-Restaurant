@@ -133,7 +133,9 @@ section {
 	width: 50%;
 	max-width: 90vw;
 }
-
+#about div a {
+	text-decoration: none;
+}
 #about div h3, #about div h4 {
 	font-family: 'Architects Daughter', cursive;
 	font-size: 2rem;
