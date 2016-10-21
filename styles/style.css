@@ -35,6 +35,12 @@ nav {
 		text-align: center;
 		width: 100%;
 		padding-top: 2vh;
+		height: 4vh;
+		background-color: white;
+		padding-bottom: 2vh;
+		-webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow:    0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+		box-shadow:         0px 0px 12px 0px rgba(0, 0, 0, 0.75);
 }
 nav ul {
 	margin-top: 0px;
@@ -45,7 +51,7 @@ nav ul {
 }
 nav ul li{
 	display: inline;
-	color: white;
+	color: black;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 }
 
@@ -162,6 +168,10 @@ section {
 
 #about div img {
 	max-width: 100%;
+}
+
+#drink {
+	margin-top: 8vh;
 }
 #drink:hover {
 	background-image: url(http://i.imgur.com/fV0vCWZ.png);
