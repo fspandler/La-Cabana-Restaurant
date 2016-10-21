@@ -30,11 +30,21 @@ header {
 #blank {
 	width: 10vw;
 }
+
+header nav div, header nav div img {
+	padding-top: 0;
+}
+
+header nav div img {
+	padding-left: 10vw;
+	height: 130px;
+	width: 130px;
+}
+
 nav {
 		position: fixed;
 		text-align: center;
 		width: 100%;
-		padding-top: 2vh;
 		height: 4vh;
 		background-color: white;
 		padding-bottom: 2vh;
