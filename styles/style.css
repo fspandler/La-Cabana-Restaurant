@@ -132,6 +132,18 @@ box-shadow: 0px 21px 28px 0px rgba(0,0,0,0.63);
 #about div h3, #about div h4 {
 	font-family: 'Architects Daughter', cursive;
 }
+
+#about div h3 {
+	margin-top: 0;
+}
+
+#about div h4 {
+	margin-bottom: 0;
+}
+
+.specials {
+	text-align: center;
+}
 /*HOURS SECTION HERE*/
 
 #hours{
