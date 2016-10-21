@@ -2,6 +2,10 @@
 	margin: 0 auto;
 }
 
+.textCenter {
+	text-align: center;
+}
+
 .right {
 	float: right;
 }
