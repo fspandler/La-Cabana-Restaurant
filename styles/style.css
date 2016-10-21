@@ -129,16 +129,21 @@ section {
 	margin-bottom: 0;
 }
 #about div {
-	display: inline-block;
-	width: 45vw;
+	display: block;
+	width: 50%;
+	max-width: 90vw;
 }
 
 #about div h3, #about div h4 {
 	font-family: 'Architects Daughter', cursive;
+	font-size: 2rem;
+	color: gold;
+	text-shadow: 2px 2px 2px rgba(53, 53, 53, 0.5);
 }
 
 #about div h3 {
 	margin-top: 0;
+	margin-bottom: 0;
 }
 
 #about div h4 {
