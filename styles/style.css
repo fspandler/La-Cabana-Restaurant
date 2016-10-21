@@ -1,10 +1,5 @@
-html {
-	background-color: gray;
-}
-
-body {
-	margin:0 auto;
-	background-color: gray;
+.autoCenter {
+	margin: 0 auto;
 }
 
 .right {
@@ -12,6 +7,15 @@ body {
 }
 .left {
 	float: left;
+}
+
+html {
+	background-color: gray;
+}
+
+body {
+	margin:0 auto;
+	background-color: gray;
 }
 
 /*Header*/
@@ -155,7 +159,10 @@ section {
 #about div img {
 	max-width: 100%;
 }
-
+#drink:hover {
+	background-image: url(http://i.imgur.com/fV0vCWZ.png);
+	background-repeat: repeat;
+}
 .specials {
 	text-align: center;
 }
