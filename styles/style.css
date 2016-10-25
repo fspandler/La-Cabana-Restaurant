@@ -1,17 +1,12 @@
-.autoCenter {
-	margin: 0 auto;
-}
+.autoCenter {margin: 0 auto;}
 
-.textCenter {
-	text-align: center;
-}
+.textCenter {text-align: center;}
 
-.right {
-	float: right;
-}
-.left {
-	float: left;
-}
+.right {float: right;}
+
+.left {float: left;}
+
+.block {display: block;}
 
 html {
 	background-color: gray;
