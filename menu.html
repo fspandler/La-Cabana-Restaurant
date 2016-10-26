@@ -16,7 +16,7 @@
       <ul>
         <li><a href="#hours">HOURS</a> | </li>
         <li><a href="#locations">LOCATIONS</a> | </li>
-        <li><a href="index.html">MENU</a> | </li>
+        <li><a href="menu.html">MENU</a> | </li>
         <li><a href="index.html"> CATERING</a> | </li>
         <li><a href="index.html">EVENTS</a> | </li>
         <li><a href="#contact">CONTACT</a></li>
@@ -24,13 +24,13 @@
 
     </nav>
   </header>
-  <div>
-    <h1>MENU</h1>
+  <div class="menu">
+    <h1 class="autoCenter textCenter logoClear">MENU</h1>
     <div>
       <h2>Breakfast</h2>
       <h3>Egg Omelettes</h3>
       <h4>Omelettes are served with seasoned potatoes, hash browns, or rice & beans.
-      Choice of tortillas or toast</h4><hr>
+      Choice of tortillas or toast</h4>
       <p>
         Bacon or Sausage Omelette - $9.95<br><br>
         Hickory Smoked Ham Omelette - $10.50<br><br>
@@ -54,7 +54,7 @@
         Plain Omelette - $7.99<br>
         <i>Add cheese $1.00</i><br><br>
       </p>
-      <h3>Sizzling Skillets</h3><hr>
+      <h3>Sizzling Skillets</h3>
       <p>
         Chile Verde & Eggs Skillet - $11.99<br>
         <i>Seasoned potatoes covered with our unique red or traditional green chile verde, melted Monterey Jack & Cheddar Cheeses.</i><br><br>
@@ -66,7 +66,7 @@
         <i>Seasoned potatoes & sausage covered with Monterey Jack and Cheddar cheeses.</i><br><br>
       </p>
 
-      <h3>Pancakes and French Toast</h3><hr>
+      <h3>Pancakes and French Toast</h3>
       <p>
         Short Stack - $4.50<br>
         <i>(add strawberries for an extra - $1.25)</i><br><br>
@@ -78,7 +78,7 @@
         Waffle - $6.50<br>
       </p>
       <h3>Signature Breakfast</h3>
-      <h4>Served with choice of seasoned potatoes, hash browns, or rice and beans.  Choice of tortillas or toast.</h4><hr>
+      <h4>Served with choice of seasoned potatoes, hash browns, or rice and beans.  Choice of tortillas or toast.</h4>
       <p>
         Huevos Rancheros - $10.99<br>
         <i>Two eggs over medium, topped with our unique chile verde in a zesty red sauce or traditonal green sauce.</i><br><br>
@@ -112,7 +112,7 @@
         Steak & Eggs - $15.99<br>
         <i>8 oz. New York steak & two eggs cooked to order.</i><br><br>
       </p>
-      <h3>Breakfast Burritos</h3><hr>
+      <h3>Breakfast Burritos</h3>
       <p>
         Country Burrito - $6.49<br>
         <i>Ham, bell peppers, onions and country potatoes.</i><br><br>
@@ -123,13 +123,13 @@
         El Simple - $5.25<br>
         <i>Eggs, potatoes and cheese.</i><br><br>
       </p>
-      <h3>Menudo</h3><hr>
+      <h3>Menudo</h3>
       <p>
         Large - $9.45<br>
         Small - $8.45<br>
         Pata - $1.99<br>
       </p>
-      <h3>Desserts</h3><hr>
+      <h3>Desserts</h3>
       <p>
         Apple Tart - $6.95<br>
         (without ice cream $4.95)<br>
@@ -142,7 +142,7 @@
         Deep Fried Ice Cream - $7.95<br>
         <i>Ice cream rolled in a crispy coating, fried then topped with whipped cream and chocolate.</i><br><br>
       </p>
-      <h3>Side Orders</h3><hr>
+      <h3>Side Orders</h3>
       <p>
         Chile Relleno - $4.55<br><br>
         Tamal "Pork" - $3.95<br><br>
@@ -153,7 +153,7 @@
         (with flour tortillas) -  add $.25<br>
         <i>Cheese - $2.95<br>Chicken - $3.50<br>Ground Beef - $3.50<br>Shredded Beef - $3.95<br>Chile Verde - $3.95<br>Fish - $3.95<br> Shrimp - $3.95</i><br><br>
       </p>
-      <h3>Appetizers</h3><hr>
+      <h3>Appetizers</h3>
       <p>
         Grand Cabaña Sampler - $19.99<br>
         <i>Nachos, quesadillas, taquitos, flautas, buffalo wings, sour cream and guacamole.</i><br><br>
@@ -221,5 +221,33 @@
       </p>
     </div>
   </div>
+  <!--CONTACT-->
+  <section id ="contact">
+    <h2>CONTACT US</h2>
+    <form action="sg_contact_content/contact_contactus.php" method="post" id="frm_contactusform">
+<div>
+<fieldset>
+ <div><label for="pleaseenteryouremailaddre" class="fml">Please enter your email address for special offers &amp; coupons</label>
+      <input type="text" id="pleaseenteryouremailaddre" name="please_enter_your_email_address_for_special_offers_amp_coupons" size="43" class="fmr" />
+ </div>
+ <div><label for="name" class="fml">Name</label>
+      <input type="text" id="name" name="name" size="37" class="fmr" />
+ </div>
+ <div><label for="dateofbirth" class="fml">Date of birth</label>
+      <input type="text" id="dateofbirth" name="date_of_birth" size="31" class="fmr" />
+ </div>
+ <div><label for="questions" class="fml">Comments <br></label>
+      <textarea id="questions" name="i_questions" cols="57" rows="3" class="fmr"></textarea>
+ </div>
+ <div class="centerac"><input type="submit" id="submit" name="submit" value="Submit" />
+ </div>
+</fieldset>
+</div>
+</form>
+ </section>
+ <footer>
+   <p>La Cabaña Restaurants 2016.<br> 6725 White Ln, Bakersfield, CA 93309. Phone: 661-397-7343<br>1219 Golden State Ave. Bakersfield, CA 93301 Phone: 661-323-2189<br>
+  Catering Phone: 661-397-7343</p>
+ </footer>
 </body>
 </html>
